@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enloe Hackathon Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #f5f5f5;
+        }
+        header {
+            background-color: #06713d;
+            color: #e3b01a;
+            text-align: center;
+            padding: 5rem 0;
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+        nav {
+            background-color: #121212;
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: #e3b01a;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        nav a:hover {
+            color: #06713d;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 2rem;
+        }
+        .hero {
+            text-align: center;
+            background-color: #06713d;
+            color: #f5f5f5;
+            padding: 6rem 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+        }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+        }
+        .hero a {
+            text-decoration: none;
+        }
+        .hero button {
+            background-color: #e3b01a;
+            color: #121212;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .hero button:hover {
+            background-color: #d4a019;
+        }
+        .section {
+            background-color: #121212;
+            padding: 3rem;
+            margin: 2rem 0;
+            border-radius: 15px;
+        }
+        .section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: #e3b01a;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        .section p {
+            font-size: 1.2rem;
+            color: #f5f5f5;
+        }
+        .faq ul {
+            list-style-type: none;
+            padding: 0;
+            color: #f5f5f5;
+        }
+        .faq ul li {
+            margin: 1rem 0;
+            font-size: 1.2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #06713d;
+            color: #e3b01a;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Enloe Hackathon Club</h1>
+    <p>Empowering students to excel at hackathons and beyond</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#faq">FAQs</a>
+    <a href="#contact">Contact</a>
+    <a href="team.html">Meet the Team</a>
+</nav>
+
+<div class="container">
+    <section class="hero">
+        <h1>Enloe Hackathon 2024</h1>
+        <p>December 24th, 2024 | 315 Kildaire Farm Rd, Cary, NC 27511</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdCQnhbFpj0VmKSqbt1h5Ly5TYihxC9mZ043tQagFtQax2ljg/viewform?usp=header" target="_blank">
+            <button>Register Now</button>
+        </a>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About the Hackathon</h2>
+        <p>Join us at the Cary Library for an exciting 9-hour, in-person hackathon! Collaborate with fellow tech enthusiasts to create innovative projects and compete for amazing prizes.</p>
+    </section>
+
+    <section id="faq" class="section faq">
+        <h2>FAQs</h2>
+        <ul>
+            <li><strong>What is a hackathon?</strong> A hackathon is an event where people come together to create tech projects within a limited time.</li>
+            <li><strong>Who can participate?</strong> Anyone with an interest in technology, regardless of experience.</li>
+            <li><strong>Do I need coding experience?</strong> No, we welcome participants of all skill levels.</li>
+            <li><strong>Do I need a team?</strong> No, you can join as an individual or form a team at the event.</li>
+            <li><strong>Will food be provided?</strong> Yes, meals and snacks will be provided throughout the event.</li>
+            <li><strong>What should I bring?</strong> Bring your laptop, charger, and any other tools you need for coding.</li>
+            <li><strong>Where will it take place?</strong> The hackathon will be held at the Cary Library, 315 Kildaire Farm Rd, Cary, NC 27511.</li>
+            <li><strong>How much does it cost?</strong> The event is completely free!</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:enloehackathon@gmail.com">enloehackathon@gmail.com</a></p>
+        <p>Follow us on <a href="https://www.instagram.com/enloehackathonclub/">Instagram</a>.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Enloe Hackathon Club. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
